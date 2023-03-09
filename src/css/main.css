@@ -1,0 +1,137 @@
+body {
+    font-family: sans-serif;
+    color: #707070;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .vetIkke {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  header {
+    width: 100%;
+    max-width: 1200px;
+    border: 2px solid #D3D3D3;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    padding-left: 0;
+    flex-wrap: wrap;
+  }
+  nav a {
+    text-decoration: none;
+  }
+  nav a li {
+    color: #707070;
+    background-color: #F5F5F5;
+    list-style-type: none;
+    border: 2px solid #D3D3D3;
+    text-transform: uppercase;
+    font-size: x-large;
+    padding: 1.5rem;
+    margin-right: 1rem;
+    border-bottom: none;
+  }
+  nav a li:hover, nav a li.active {
+    color: white;
+    background-color: #25DFE6;
+    border: 2px solid #25DFE6;
+    border-bottom: none;
+    transition: ease-in-out 0.25s;
+  }
+  
+  .hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .testEr {
+    width: 100%;
+    max-width: 1200px;
+    border: 2px solid #D3D3D3;
+    border-top: 5px solid #25DFE6;
+    min-height: 200px;
+  }
+  .testEr a {
+    color: #00C1C9;
+  }
+  
+  .testEr h1 {
+    width: 100%;
+    display: block;
+    text-transform: uppercase;
+    padding-left: 1rem;
+  }
+  
+  .testEr li {
+    list-style-type: none;
+    width: 60%;
+    list-style-type: circle;
+  }
+  
+  .testEr ul {
+    padding-left: 2rem;
+  }
+  
+  .testEr p {
+    padding-left: 1rem;
+  }
+  
+  @media screen and (min-width: 768px) {
+    header {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .navbar {
+      margin-bottom: 0rem;
+    }
+  
+    .navbar a li {
+      margin-right: 2rem;
+      padding: 2rem;
+    }
+  
+    .resourceBody li {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    header {
+      margin-top: 1rem;
+      margin-bottom: 3rem;
+    }
+  
+    .navbar {
+      justify-content: flex-start;
+      margin-bottom: 0;
+    }
+  
+    .navbar a li {
+      margin-right: 2rem;
+      padding: 2rem;
+    }
+  
+    .testEr li {
+      width: 100%;
+    }
+  }
+  
+  /*# sourceMappingURL=main.css.map */
